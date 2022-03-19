@@ -1,7 +1,7 @@
 # Laboratorium 1 - Kalkulator
 
 ## Cel zadania
-Zadanie polegało na stworzeniu programu 'Kalkulator', który obsługuje podstawowe funkcje matematyczne
+Zadanie polegało na stworzeniu programu 'Kalkulator', który obsługuje podstawowe funkcje matematyczne. Kolory utrzymałem w tematyce militarnej, bo taka jest ostatnio popularna.
 
 ## Użyte technologie
 Do napisania kalulatora skorzystałem z **React Native** oraz **Expo**, a całość tworzyłem w **VSCode**. Moim urządzeniem do testowania był mój telefon z systemem *Android*.
