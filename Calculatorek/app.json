@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "PabinKalkulator",
+    "slug": "PabinKalkulator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#ffffff",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6f793E"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
