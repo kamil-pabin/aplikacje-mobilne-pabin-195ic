@@ -1,23 +1,25 @@
-# Laboratorium 2 - Responsywne Layouty i Nawigacja
+# Laboratorium 3 - renedrowanie-listy-danych-progres
 
 ## Cel zadania
-Zadanie polegało na stworzeniu programu w którym za pomocą przycisków moemy przełącza się między widokami. Dodatkowo w kazdym z widoków w inny sposób mamy uzyc flexboxa. 
+Zadanie polegało na stworzeniu programu w którym wygeneruje losowe 100 liczb z zakresu 0-1000, a następnie je wyświetle, wyświetle posortowane, wyświetle filtrowane. Drugą częścią zadania jest stworzenie wyświetlania losowych liter za pomocą lazy loading, a trzecią częścią jest progres krokowy.
 
 ## Użyte technologie
-Do napisania kalulatora skorzystałem z **React Native** oraz **Expo**, a całość tworzyłem w **VSCode**. Moim urządzeniem do testowania był mój telefon z systemem *Android*.
+Do napisania kalulatora skorzystałem z **React Native** oraz **Expo**, a całość tworzyłem w **VSCode**. Moim urządzeniem do testowania był mój telefon z systemem **Android**.
 
 ## Jak to działa
-Za pomocą nawigacji react-navigation stworzyłem prostą aplikację w której mamy 3 zakładki, motywem przewodnim są Star Wars.
-Wykorzystałem inne zasady pozycjonowania elementów w kazdym z widokow, wykorzystujac osobne pliki stylow dla kazdego okna.
-## Ekran 1
- ![Ekran_1](Zrzuty_ekranu/Zrzut_Ekran_1.png)
- ![Ekran_Style_1](Zrzuty_ekranu/Zrzut_Style_1.png)
- ![Ekran_Apka_1](Zrzuty_ekranu/Zrzut_Apka_Ekran_1.jpeg)
- ## Ekran 2
- ![Ekran_2](Zrzuty_ekranu/Zrzut_Ekran_2.png)
- ![Ekran_Style_2](Zrzuty_ekranu/Zrzut_Style_2.png)
- ![Ekran_Apka_2](Zrzuty_ekranu/Zrzut_Apka_Ekran_2.jpeg)
- ## Ekran 3
- ![Ekran_3](Zrzuty_ekranu/Zrzut_Ekran_3.png)
- ![Ekran_Style_3](Zrzuty_ekranu/Zrzut_Style_3.png)
- ![Ekran_Apka_3](Zrzuty_ekranu/Zrzut_Apka_Ekran_3.jpeg)
+Wykorzystałem funkcje map, sort (zmodyfikowane, żeby sortowało liczbowo), a take filter. Do drugiej części zadania wykorzystałem flatlist, a do trzeciej activity indicator oraz react native progress steps.
+## Ekran 1, Generowanie i sortowanie liczb:
+ ![Ekran_1](Zrzuty_ekranu/sortowanie.jpg)
+ ![Ekran_Kod_1](Zrzuty_ekranu/sortowanie_kod.jpg)
+ ## Ekran 2, Generowanie i filtrowanie liczb:
+ ![Ekran_2](Zrzuty_ekranu/filter.jpg)
+ ![Ekran_Kod_2](Zrzuty_ekranu/filter_kod.jpg)
+ ## Ekran 3, Lazy loading i generowanie losowych liter
+ ![Ekran_3](Zrzuty_ekranu/lazy1.jpg)
+ ![Ekran_3_2](Zrzuty_ekranu/lazy2.jpg)
+ ![Ekran_Kod_3](Zrzuty_ekranu/lazy_kod.jpg)
+ ## Ekran 4, Progres Krokowy i Activity Indicator
+ ![Ekran_4](Zrzuty_ekranu/step1.jpg)
+ ![Ekran_4_2](Zrzuty_ekranu/step2.jpg)
+ ![Ekran_4_3](Zrzuty_ekranu/step3.jpg)
+ ![Ekran_Kod_4](Zrzuty_ekranu/step_kod.jpg)

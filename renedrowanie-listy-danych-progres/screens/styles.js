@@ -1,30 +1,46 @@
 'use strict';
-import { StyleSheet } from 'react-native';
+import { warmUpAsync } from 'expo-web-browser';
+import { StyleSheet, YellowBox } from 'react-native';
 
 module.exports = StyleSheet.create({
   container: {
     flex: 1,
-    //alignItems: 'flex-start',
-    //justifyContent: 'center',
+    padding:20,
+    margin:20,
   },
   title: {
     fontSize: 20,
+    width: 100,
     fontWeight: 'bold',
-    color: 'yellowgreen',
+    color: 'red',
     textAlign: 'center',
     margin:0,
     padding:0,
   },
+  liczby: {
+    width:290,
+    backgroundColor: 'transparent',
+    borderWidth:  1,
+    borderColor: 'blue',
+    borderRadius: 10,
+    padding: 10,
+    margin:0,
+    justifyContent: 'space-between',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    alignItems: 'flex-start',
+  },
   pudelko: {
     width:300,
-    height: 120,
     backgroundColor: 'transparent',
     borderWidth:  1,
     borderColor: 'pink',
-    borderRadius: 30,
+    borderRadius: 10,
     padding: 10,
-    justifyContent: 'space-between',
-    alignItems: 'flex-start',
+    justifyContent: 'center',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    alignItems: 'center',
   },
   pudelkoMale: {
     width:100,
@@ -49,14 +65,22 @@ module.exports = StyleSheet.create({
     height: 80,
   },
   galeria: {
-    padding: 10,
     backgroundColor: 'transparent',
     height: 400,
     display:'flex',
     flexDirection: "row",
     flexWrap: 'wrap',
-    justifyContent: 'space-evenly',
-    alignContent: 'space-around',
+    justifyContent: 'center',
+    alignContent: 'flex-start',
+  },
+  item: {
+    backgroundColor: 'lightblue',
+    padding: 20,
+    marginVertical: 8,
+    flex:1,
+    justifyContent: 'center',
+    alignContent: 'center',
+    alignItems: 'center',
   },
   image:{
     flex: 1,
