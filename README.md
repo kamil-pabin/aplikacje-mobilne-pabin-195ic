@@ -1,28 +1,28 @@
-# Laboratorium 1 - Kalkulator
+# Project 1 - Calculator
 
-## Cel zadania
-Zadanie polegało na stworzeniu programu 'Kalkulator', który obsługuje podstawowe funkcje matematyczne. Kolory utrzymałem w tematyce militarnej, bo taka jest ostatnio popularna.
+## Purpose of the task
+The task was to create a program called 'Calculator' that handles basic mathematical functions. I kept the colors on the military theme, because that is what has been popular recently.
 
-## Użyte technologie
-Do napisania kalulatora skorzystałem z **React Native** oraz **Expo**, a całość tworzyłem w **VSCode**. Moim urządzeniem do testowania był mój telefon z systemem *Android*.
+## Technologies used
+I used ** React Native ** and ** Expo ** to write the calculator, and I created everything in ** VSCode **. My testing device was my * Android * phone.
 
-## Jak to działa
-Do stworzenia aplikacji wzorowałem się nie na jednym, lecz na kilku poradnikach, więc jest to trochę zlepek wszystkiego. Całość aplikacji znajduje się w pliku *App.js*, a konfiguracja w *app.json*.
+## How it's working
+To create the application, I did not follow one guide, but several guides, so it's a bit of a patchwork of everything. The entire application is in the * App.js * file, and the configuration in * app.json *.
 
-## Plik App.js jest najważniejszy:
+## The App.js file is the most important:
 
-+ W pierwszej sekcji zaimportowałem potrzebne biblioteki
-+ W drugiej sekcji zdefiniowałem zmienne dla przycisków i znaków
-+ W kolejnej sekcji znajdują się funkcje kalkulatora samego w sobie, a także funkcje odpowiadające za przyjmowanie informacji od użytkownika (oraz zwracanie informacji o przyjęciu, w postaci wibracji)
-+ W kolejnej sekcji znajduję się definicja stylów dla elementów aplikacji
-+ Ostatnia sekcja to renderowanie elementów wg zdefiniowanych stylów + wybór koloru poszczególnych
++ In the first section, I imported the libraries I needed
++ In the second section, I defined the variables for buttons and characters
++ In the next section there are functions of the calculator itself, as well as functions responsible for receiving information from the user (and returning information about the party in the form of vibrations)
++ The next section contains the definition of styles for application elements
++ The last section is rendering elements according to defined styles + choosing the color of individual
 
-## Dodatkowe funkcje
-Poza podstawowymi funkcjami matematycznymi, dodałem również tryb ciemny/jasny, oraz (co zajęło a 5minut) skonfigurowałem ekran ładujący aplikacji na moją autorską grafikę. 
+## Additional Features
+In addition to the basic math functions, I also added a dark / light mode, and (which took 5 minutes) set up the loading screen of the application on my original artwork.
 
-## Tradycyjny wygląd aplikacji na Android
+## Standard look of the app
  ![Light](Zrzuty_ekranu/light_mobile.jpg)
-## Ciemny wygląd aplikacji na Android
+## dark-mode
  ![Dark](Zrzuty_ekranu/dark_mobile.jpg)
-## Użycie expo
+## Using expo
 ![EXPO](Zrzuty_ekranu/VSCode_expo.png)
