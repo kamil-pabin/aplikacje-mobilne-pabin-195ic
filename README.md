@@ -1,23 +1,24 @@
-# Laboratorium 2 - Responsywne Layouty i Nawigacja
+# Lab 2 - Responsive Layouts and Navigation
 
-## Cel zadania
-Zadanie polegało na stworzeniu programu w którym za pomocą przycisków moemy przełącza się między widokami. Dodatkowo w kazdym z widoków w inny sposób mamy uzyc flexboxa. 
+## Purpose of the task
+The task was to create a program in which we can switch between views using buttons. Additionally, in each view we have to use flexbox in a different way.
 
-## Użyte technologie
-Do napisania kalulatora skorzystałem z **React Native** oraz **Expo**, a całość tworzyłem w **VSCode**. Moim urządzeniem do testowania był mój telefon z systemem *Android*.
+## Technologies used
+I used ** React Native ** and ** Expo ** to write the calculator, and I created everything in ** VSCode **. My testing device was my * Android * phone.
 
-## Jak to działa
-Za pomocą nawigacji react-navigation stworzyłem prostą aplikację w której mamy 3 zakładki, motywem przewodnim są Star Wars.
-Wykorzystałem inne zasady pozycjonowania elementów w kazdym z widokow, wykorzystujac osobne pliki stylow dla kazdego okna.
-## Ekran 1
+## How it's working
+Using react-navigation navigation, I created a simple application in which we have 3 tabs, the main theme is Star Wars.
+I used different rules for positioning elements in each view, using separate style files for each window.
+
+## Screen 1
  ![Ekran_1](Zrzuty_ekranu/Zrzut_Ekran_1.png)
  ![Ekran_Style_1](Zrzuty_ekranu/Zrzut_Style_1.png)
  ![Ekran_Apka_1](Zrzuty_ekranu/Zrzut_Apka_Ekran_1.jpeg)
- ## Ekran 2
+ ## Screen 2
  ![Ekran_2](Zrzuty_ekranu/Zrzut_Ekran_2.png)
  ![Ekran_Style_2](Zrzuty_ekranu/Zrzut_Style_2.png)
  ![Ekran_Apka_2](Zrzuty_ekranu/Zrzut_Apka_Ekran_2.jpeg)
- ## Ekran 3
+ ## Screen 3
  ![Ekran_3](Zrzuty_ekranu/Zrzut_Ekran_3.png)
  ![Ekran_Style_3](Zrzuty_ekranu/Zrzut_Style_3.png)
  ![Ekran_Apka_3](Zrzuty_ekranu/Zrzut_Apka_Ekran_3.jpeg)
