@@ -4,10 +4,10 @@
 The task was to create a program called 'Calculator' that handles basic mathematical functions. I kept the colors on the military theme, because that is what has been popular recently.
 
 ## Technologies used
-I used ** React Native ** and ** Expo ** to write the calculator, and I created everything in ** VSCode **. My testing device was my * Android * phone.
+I used **React Native** and **Expo** to write the calculator, and I created everything in **VSCode**. My testing device was my *Android* phone.
 
 ## How it's working
-To create the application, I did not follow one guide, but several guides, so it's a bit of a patchwork of everything. The entire application is in the * App.js * file, and the configuration in * app.json *.
+To create the application, I did not follow one guide, but several guides, so it's a bit of a patchwork of everything. The entire application is in the *App.js* file, and the configuration in *app.json*.
 
 ## The App.js file is the most important:
 
