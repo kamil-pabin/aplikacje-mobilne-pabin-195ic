@@ -30,7 +30,7 @@ Wykorzystałem funkcje do generowania liczby losowej z poprzedniego laboratorium
  Okno alertu zamyka sie po 5sek za pomoca funkcji timeout. 
 
  ## Dodatkowo, zrobilem uzupelnienie czesci 1 - textinput, bo znalazlem kolejny ciekawy przyklad - wpisywanie hasla, ktore mozna wyswietlic i ukryc klikajac przycisk.
- ![Ekran_pass](/Assets/E_Input_pass.jpeg)
+ ![Ekran_pass](/Assets/E_input_pass.jpeg)
  Po kliknieciu przycisku:
  ![Ekran_pass2](/Assets/E_Input_pass_show.jpeg)
 
