@@ -32,7 +32,7 @@ module.exports = StyleSheet.create({
   },
   pudelko: {
     width:300,
-    backgroundColor: 'transparent',
+    backgroundColor: 'white',
     borderWidth:  1,
     borderColor: 'pink',
     borderRadius: 10,
@@ -45,7 +45,7 @@ module.exports = StyleSheet.create({
   pudelkoMale: {
     width:100,
     height: 100,
-    backgroundColor: 'transparent',
+    backgroundColor: 'white',
     margin: 'auto',
     alignContent: 'center',
     alignItems: 'center',
@@ -65,12 +65,11 @@ module.exports = StyleSheet.create({
     height: 80,
   },
   galeria: {
-    backgroundColor: 'transparent',
-    height: 400,
+    backgroundColor: 'white',
     display:'flex',
-    flexDirection: "row",
+    flexDirection: "column",
     flexWrap: 'wrap',
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
     alignContent: 'flex-start',
   },
   item: {
