@@ -4,7 +4,7 @@
 Zadanie polegało na stworzeniu programu w którym pokazane zostanie jak wykorzystać podane wyżej elementy.
 
 ## Użyte technologie
-Do napisania kalulatora skorzystałem z **React Native** oraz **Expo**, a całość tworzyłem w **VSCode**. Moim urządzeniem do testowania był mój telefon z systemem **Android**. Wykorzystałem również NativeBase.
+Do napisania aplikacji skorzystałem z **React Native** oraz **Expo**, a całość tworzyłem w **VSCode**. Dodatkowo w tej części skorzystałem z **React NativeBase**. Moim urządzeniem do testowania był mój telefon z systemem **Android**. Wykorzystałem również NativeBase.
 
 ## Jak to działa
 Wykorzystałem funkcje do generowania liczby losowej z poprzedniego laboratorium, którą wykorzystałem w komponentach. Pozostałe elementy mają funkcje tak jak powiedziane w zadaniu.
