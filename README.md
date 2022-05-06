@@ -24,9 +24,14 @@ Wykorzystałem funkcje do generowania liczby losowej z poprzedniego laboratorium
  ![Ekran_1](/Assets/E_date_date.jpeg)
  ## Ekran 5 Wybor godziny
  ![Ekran_1](/Assets/E_date.jpeg)
- ## Ekran 6 Alert czasowy 5sek (z funkcja timeout)
+ ## Ekran 6 Alert czasowy 5sek (z funkcja timeout), ale mozna tez go zamknac przyciskiem X
  ![Ekran_1](/Assets/E_alert.jpeg)
 
  Okno alertu zamyka sie po 5sek za pomoca funkcji timeout. 
+
+ ## Dodatkowo, zrobilem uzupelnienie czesci 1 - textinput, bo znalazlem kolejny ciekawy przyklad - wpisywanie hasla, ktore mozna wyswietlic i ukryc klikajac przycisk.
+ ![Ekran_pass](/Assets/E_Input_pass.jpeg)
+ Po kliknieciu przycisku:
+ ![Ekran_pass2](/Assets/E_Input_pass_show.jpeg)
 
     To byla druga czesc zadania - pierwsza znajduje sie w branchu a, poniewaz zrobilem do tego osobna aplikacje (tutaj wykorzystalem nowy framework, ktory chcialem oddzielic od poprzednich aplikacji)

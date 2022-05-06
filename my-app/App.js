@@ -32,6 +32,17 @@ const config = {
   useSystemColorMode: false,
   initialColorMode: "dark",
 };
+const InputPass = () => {
+  const [show, setShow] = React.useState(false);
+
+  const handleClick = () => setShow(!show);
+
+  return <Box alignItems="center">
+      <Input type={show ? "text" : "password"} w="75%" maxW="300px" py="0" InputRightElement={<Button size="xs" rounded="none" w="1/6" h="full" onPress={handleClick}>
+            {show ? "Hide" : "Show"}
+          </Button>} placeholder="Password" />
+    </Box>;
+};
 const ModalRandom = () => {
   const [showModal, setShowModal] = React.useState(false);
   return <Center>
@@ -236,6 +247,7 @@ export default function App() {
               />
             )}
           <MyAlert />
+          <InputPass />
         </VStack>
       </Center>
     </NativeBaseProvider>
