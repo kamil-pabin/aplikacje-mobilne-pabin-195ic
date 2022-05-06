@@ -1,1 +1,1 @@
-# That is a repository containing my projects in React Native. Each of them you can see in their own branches, with description and screenshots.
+# That is a repository containing my React Native projects. Each of them you can see in their own branches, with description and screenshots.
