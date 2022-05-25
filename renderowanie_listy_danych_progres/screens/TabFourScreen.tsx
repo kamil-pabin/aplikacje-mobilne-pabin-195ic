@@ -1,63 +1,52 @@
-import {ActivityIndicator, StyleSheet, Image, ImageBackground } from 'react-native';
-import { ProgressSteps, ProgressStep } from 'react-native-progress-steps';
-import EditScreenInfo from '../components/EditScreenInfo';
+import {ActivityIndicator, StyleSheet, Image, ImageBackground, Animated } from 'react-native';
 import { Text, View } from '../components/Themed';
-
-export default function TabFourScreen() {
-  const style = require('./styles');
-  
-  return (
-    <View style={style.container}>
-      <View style={style.galeria}>  
-          
-      <ProgressSteps>
-        <ProgressStep label="First Step">
-            <View style={{ alignItems: 'center' }}>
-                <Text>Krok 1 !</Text>
-                <ActivityIndicator size="small" color="red"/>
-                <Text style={{ fontSize: 20 }}>
-                Kamil
-                </Text>
-            </View>
-        </ProgressStep>
-        <ProgressStep label="Second Step">
-            <View style={{ alignItems: 'center' }}>
-                <Text>Krok 2!</Text>
-                <ActivityIndicator size="large" color="yellow"/>
-                <Text style={{ fontSize: 24 }}>
-                Pabin
-                </Text>
-            </View>
-        </ProgressStep>
-        <ProgressStep label="Third Step">
-            <View style={{ alignItems: 'center' }}>
-                <Text>Krok 3!</Text>
-                <ActivityIndicator size="large" color="#0000ff"/>
-                <Text style={{ fontSize: 27 }}>
-                Ocena 5
-                </Text>
-            </View>
-        </ProgressStep>
-    </ProgressSteps>
-      
-      </View>
-    </View>
-  );
-}
+import { AppRegistry } from 'react-native'
+import Swiper from 'react-native-swiper'
+import { Component } from 'react';
 
 const styles = StyleSheet.create({
-  container: {
+  wrapper: {},
+  slide1: {
     flex: 1,
-    alignItems: 'center',
     justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#9DD6EB'
   },
-  title: {
-    fontSize: 20,
-    fontWeight: 'bold',
+  slide2: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#97CAE5'
   },
-  separator: {
-    marginVertical: 30,
-    height: 1,
-    width: '80%',
+  slide3: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#92BBD9'
   },
-});
+  text: {
+    color: '#fff',
+    fontSize: 30,
+    fontWeight: 'bold'
+  }
+})
+
+const style = require('./styles');
+ 
+export default class SwiperComponent extends Component {
+  render() {
+    return (
+      <Swiper style={styles.wrapper} showsButtons={true}>
+        <View style={styles.slide1}>
+          <Text style={styles.text}>Hello Swiper</Text>
+        </View>
+        <View style={styles.slide2}>
+          <Text style={styles.text}>Beautiful</Text>
+        </View>
+        <View style={styles.slide3}>
+          <Text style={styles.text}>And simple</Text>
+        </View>
+      </Swiper>
+    )
+  }
+}

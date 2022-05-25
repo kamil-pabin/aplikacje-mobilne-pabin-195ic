@@ -113,7 +113,14 @@ function BottomTabNavigator() {
           tabBarIcon: ({ color }) => <TabBarIcon name="ra" color={color} />,
         }}
       />
-      
+      <BottomTab.Screen
+        name="TabFive"
+        component={TabFiveScreen}
+        options={{
+          title: 'Dodatkowe',
+          tabBarIcon: ({ color }) => <TabBarIcon name="ra" color={color} />,
+        }}
+      />
     </BottomTab.Navigator>
   );
 }

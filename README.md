@@ -1,25 +1,29 @@
 # Project 3
 
 ## Purpose of the task
-The task was to create a program in which it will generate random 100 numbers from the range 0-1000, and then display them, display sorted, display them filtered. The second part of the task is to create a display of random letters using lazy loading, and the third part is the stepwise progression.
+In this task I am using ScrollView component on first two screens, showing different flexbox styles. On the third screen I am using TouchableOpcaity and TouchableHighlight components, to show the difference between two. I have also added a function that displays WebView in another container on this screen, after touching Highlight component. The webview is showing us youtube website with Rick Astley song - Never gonna give you up. On the fourth screen, I have created swipeable gallery, which allows to swipe left and right.
+On the fifth screen I have additionally implemented Pressable component, which counts how many times I have clicked on the component.
 
 ## Technologies used
 I used **React Native** and **Expo** to write the app, and I created everything in **VSCode**. My testing device was my *Android* phone.
-
-## How it's working
-I used the map functions, sort (modified to sort numerically), and also filter. For the second part of the task, I used flatlist, and for the third part, I used activity indicator and react native progress steps.
-## Screen 1, Generating and sorting:
- ![Ekran_1](Zrzuty_ekranu/sortowanie.jpg)
- ![Ekran_Kod_1](Zrzuty_ekranu/sortowanie_kod.jpg)
- ## Screen 2, Generating and filtering:
- ![Ekran_2](Zrzuty_ekranu/filter.jpg)
- ![Ekran_Kod_2](Zrzuty_ekranu/filter_kod.jpg)
- ## Screen 3, Lazy loading and generating random letters:
- ![Ekran_3](Zrzuty_ekranu/lazy1.jpg)
- ![Ekran_3_2](Zrzuty_ekranu/lazy2.jpg)
- ![Ekran_Kod_3](Zrzuty_ekranu/lazy_kod.jpg)
- ## Screen 4, Step-progress and Activity Indicator
- ![Ekran_4](Zrzuty_ekranu/step1.jpg)
- ![Ekran_4_2](Zrzuty_ekranu/step2.jpg)
- ![Ekran_4_3](Zrzuty_ekranu/step3.jpg)
- ![Ekran_Kod_4](Zrzuty_ekranu/step_kod.jpg)
+## Screen 1, ScrollView, with Column style flexbox:
+ ![Ekran_1_1](Zrzuty_ekranu/scroll1.png)
+ ![Ekran_1_2](Zrzuty_ekranu/scroll2.png)
+ ![Ekran_1_3](Zrzuty_ekranu/scroll3.png)
+## Screen 2, ScrollView, with double row + column style flexbox:
+ ![Ekran_2_1](Zrzuty_ekranu/scroll_2_1.png)
+ ![Ekran_2_2](Zrzuty_ekranu/scroll_2_2.png)
+ ![Ekran_2_3](Zrzuty_ekranu/scroll_2_3.png)
+ ## Screen 3, TouchableOpacity and Highlight
+ ![Ekran_3_1](Zrzuty_ekranu/high_opacity_default.png)
+ ![Ekran_3_2](Zrzuty_ekranu/high_opacity_1.png)
+ ![Ekran_3_3](Zrzuty_ekranu/high_opacity_2.png)
+ ![Ekran_3_4](Zrzuty_ekranu/high_opacity_webview.png)
+ ## Screen 4, Swipeable
+ ![Ekran_4_1](Zrzuty_ekranu/swipe_1.png)
+ ![Ekran_4_2](Zrzuty_ekranu/swipe_2.png)
+ ![Ekran_4_3](Zrzuty_ekranu/swipe_3.png)
+ ## Screen 5, Additional - Pressable component
+ ![Ekran_5](Zrzuty_ekranu/pressable_1.png)
+ ![Ekran_5](Zrzuty_ekranu/pressable_2.png)
+ ![Ekran_5](Zrzuty_ekranu/pressable_3.png)

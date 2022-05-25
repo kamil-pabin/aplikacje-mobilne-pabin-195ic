@@ -1,5 +1,6 @@
 'use strict';
 import { warmUpAsync } from 'expo-web-browser';
+import { Center } from 'native-base';
 import { StyleSheet, YellowBox } from 'react-native';
 
 module.exports = StyleSheet.create({
@@ -7,6 +8,7 @@ module.exports = StyleSheet.create({
     flex: 1,
     padding:20,
     margin:20,
+    backgroundColor: 'cyan'
   },
   title: {
     fontSize: 20,
@@ -45,7 +47,7 @@ module.exports = StyleSheet.create({
   pudelkoMale: {
     width:100,
     height: 100,
-    backgroundColor: 'transparent',
+    backgroundColor: 'blue',
     margin: 'auto',
     alignContent: 'center',
     alignItems: 'center',
@@ -61,8 +63,8 @@ module.exports = StyleSheet.create({
     width: '80%',
   },
   logo: {
-    width: 80,
-    height: 80,
+    width: 110,
+    height: 150,
   },
   galeria: {
     backgroundColor: 'transparent',
@@ -85,5 +87,31 @@ module.exports = StyleSheet.create({
   image:{
     flex: 1,
     justifyContent: "center"
+  },
+  scrollVie:{
+    flex: 1,
+    justifyContent: 'center'
+  },
+  button: {
+    width: 120,
+    height: 60,
+    backgroundColor: 'grey',
+    justifyContent: 'center',
+    alignContent: 'center',
+    alignItems: 'center',
+  },
+  button2: {
+    width: 120,
+    height: 60,
+    backgroundColor: 'grey',
+    justifyContent: 'center',
+    alignContent: 'center',
+    alignItems: 'center',
+  },
+  napis:{
+    color: 'red'
+  },
+  highl:{
+    width:'100%'
   }
 });

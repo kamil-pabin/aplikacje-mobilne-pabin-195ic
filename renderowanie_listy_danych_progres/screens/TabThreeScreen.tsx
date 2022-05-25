@@ -1,56 +1,45 @@
-import {FlatList, SafeAreaView, StyleSheet, Image, ImageBackground } from 'react-native';
+import {FlatList, SafeAreaView, StyleSheet, Image, ImageBackground, TouchableOpacity, TouchableHighlight, Button} from 'react-native';
+import { WebView } from 'react-native-webview';
+
 import EditScreenInfo from '../components/EditScreenInfo';
 import { Text, View } from '../components/Themed';
+import React from 'react';
 
 export default function TabThreeScreen() {
-  var j = 0;
+  const [shouldShow, setShouldShow] = React.useState(true);
   const style = require('./styles');
-  //funkcja do generowania losowej liczby z zakresu od min do max
-  function randomNumber(min : number, max : number) {
-    return Math.round(Math.random() * (max - min) + min);
-  }
-  function makeid(length) {
-    var result           = '';
-    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
-    var charactersLength = characters.length;
-    for ( var i = 0; i < length; i++ ) {
-      result += characters.charAt(Math.floor(Math.random() * 
-    charactersLength));
-      }
-      return result;
-    }
-  //zwykla petla do wypelnienia tablicy losowymi liczbami z powyzszej funkcji
-  
-  var DATA = [
-    
-  ];
-  for(let i=0; i<10; ++i){
-    DATA[j] = {id: j.toString(), title: makeid(1).toString()}
-    j++;
-  }
-  function generateMore(){
-    for(let i=0; i<10; ++i){
-      DATA[j] = {id: j.toString(), title: makeid(1).toString()}
-      j++
-    }
-  }
-  const Item = ({ title }) => (
-    <View style={style.item}>
-      <Text style={style.title}>{title}</Text>
-    </View>
-  );
-  const renderItem = ({ item }) => (
-    <Item title={item.title} />
-  );
+  var value = 0;
   const image = { uri: "https://external-preview.redd.it/MRHUHDtLtcOJ8OEpx6znVGl2mKUcY0Ng2tc5cGhCB50.jpg?auto=webp&s=9b86a5fe4f97774212a4ccdf5ca0f9c9488d20e4" };
   return (
     <SafeAreaView style={style.container}>
-      <FlatList
-        data={DATA}
-        renderItem={renderItem}
-        keyExtractor={item => item.id}
-        onEndReached={generateMore}
-      />
+      <View style={style.container}>
+        <TouchableOpacity
+          style={style.button}
+        >
+          <Text style={style.napis}>Dotykowy prostokąt</Text>
+        </TouchableOpacity>
+      
+        <View style={style.container}>
+          {/*Here we will return the view when state is true 
+          and will return false if state is false*/}
+          {shouldShow ? (
+            <WebView
+            source={{uri: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'}}
+            style={{marginTop: 20}}
+        />
+          ) : null}
+           <TouchableHighlight
+          activeOpacity={0.2}
+          underlayColor="#fDfDfD"
+          onPress={() => setShouldShow(!shouldShow)}
+          style={style.button}
+          >
+          <View style={style.button2}>
+            <Text style={style.napis}>Highlight</Text>
+          </View>
+        </TouchableHighlight>
+        </View>
+      </View>
     </SafeAreaView>
   );
 }
