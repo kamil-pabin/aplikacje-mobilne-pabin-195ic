@@ -1,4 +1,4 @@
-# Project 3
+# Project 5
 
 ## Purpose of the task
 In this task I am using ScrollView component on first two screens, showing different flexbox styles. On the third screen I am using TouchableOpcaity and TouchableHighlight components, to show the difference between two. I have also added a function that displays WebView in another container on this screen, after touching Highlight component. The webview is showing us youtube website with Rick Astley song - Never gonna give you up. On the fourth screen, I have created swipeable gallery, which allows to swipe left and right.
