@@ -16,6 +16,6 @@ I used **React Native** and **Expo** to write the app, and I created everything 
  ## Screen 4, Net status and state:
  ![Ekran_4_1](Zrzuty_ekranu/NetState.jpeg)
  ![Ekran_4_2](Zrzuty_ekranu/Net_State2.jpeg)
- ## Screen 5, Additional - Pressable component
+ ## Screen 5, Async state storage
  ![Ekran_5](Zrzuty_ekranu/Async_1.jpeg)
  ![Ekran_5](Zrzuty_ekranu/Async_2.jpeg)
