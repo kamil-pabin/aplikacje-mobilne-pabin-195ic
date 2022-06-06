@@ -1,9 +1,12 @@
-import {FlatList, SafeAreaView, StyleSheet, Image, ImageBackground, TouchableOpacity, TouchableHighlight, Button} from 'react-native';
+import {FlatList, SafeAreaView, StyleSheet, ImageBackground, TouchableOpacity, TouchableHighlight, Button} from 'react-native';
 import { WebView } from 'react-native-webview';
-
+import { ActivityIndicator } from 'react-native';
+import { NativeBaseProvider, Box, ScrollView, Center, Heading, VStack, Icon} from "native-base";
+import { Image } from 'react-native-elements';
 import EditScreenInfo from '../components/EditScreenInfo';
 import { Text, View } from '../components/Themed';
 import React from 'react';
+import { Entypo, Ionicons } from '@expo/vector-icons';
 
 export default function TabThreeScreen() {
   const [shouldShow, setShouldShow] = React.useState(true);
@@ -13,32 +16,22 @@ export default function TabThreeScreen() {
   return (
     <SafeAreaView style={style.container}>
       <View style={style.container}>
-        <TouchableOpacity
-          style={style.button}
-        >
-          <Text style={style.napis}>Dotykowy prostokąt</Text>
-        </TouchableOpacity>
-      
-        <View style={style.container}>
-          {/*Here we will return the view when state is true 
-          and will return false if state is false*/}
-          {shouldShow ? (
-            <WebView
-            source={{uri: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'}}
-            style={{marginTop: 20}}
-        />
-          ) : null}
-           <TouchableHighlight
-          activeOpacity={0.2}
-          underlayColor="#fDfDfD"
-          onPress={() => setShouldShow(!shouldShow)}
-          style={style.button}
-          >
-          <View style={style.button2}>
-            <Text style={style.napis}>Highlight</Text>
-          </View>
-        </TouchableHighlight>
-        </View>
+      <Image
+        source={require('../assets/images/hansolo.jpeg')} 
+        style={{ width: 200, height: 200 }}
+        PlaceholderContent={<ActivityIndicator />}
+      />
+      <View style={style.container}>
+        <Ionicons name="md-checkmark-circle" size={32} color="green" />
+        <Ionicons name="home" size={32} color="red" />
+        <Ionicons name="airplane-outline" size={32} color="black" />
+        <Ionicons name="alarm" size={32} color="green" />
+        <Ionicons name="american-football-sharp" size={32} color="black" />
+        <Ionicons name="at-circle" size={32} color="pink" />
+        <Ionicons name="beer" size={32} color="gold" />
+        <Ionicons name="bicycle-outline" size={32} color="blue" />
+        <Ionicons name="bug" size={32} color="brown" />
+      </View>   
       </View>
     </SafeAreaView>
   );
