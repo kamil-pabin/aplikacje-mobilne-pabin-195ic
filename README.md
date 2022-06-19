@@ -1,9 +1,9 @@
 # Project 8
 
 ## Purpose of the task
-In this task I am using MapView component, to show current localization of an user. I am also using Expo Localization, to access coordinates of the user and display them using state in a text component.
+In this task I am using MapView component, to show current localization of an user. I am also using Expo Localization, to access coordinates of the user and display them using state in a text component. The permissions module from expo allowed me to access the device's localization data, after gaining user's approval. Then I set the state of locatione and using it to display the gained data in a text component. 
 
 ## Technologies used
-I used **React Native** and **Expo** to write the app, and I created everything in **VSCode**. My testing device was my *Android* phone.
+I used **React Native** and **Expo** to write the app, and I created everything in **VSCode**. My testing device was my *Android* phone. Expo localization, MapView.
 ## Screen 1 Button to update coordinates and a map.
  ![Ekran_1_1](Zrzuty_ekranu/lokalizacja.jpeg)
